@@ -54,7 +54,8 @@
         "setting" : {
             "urlCheck" : true,
             "postcss" : false,
-            "checkSiteMap":false
+            "checkSiteMap" : false,
+            "es6" : false
         },
         "usingComponents" : true
     },
