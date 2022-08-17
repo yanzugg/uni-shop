@@ -32,7 +32,7 @@
     methods:{
      async getGoodsList(cb){
        this.isLoading  = true
-       const {data:res} = await uni.$http.get('/api/public/v1/goods/search',this.quertObj)
+       const {data:res} = await uni.$http.get('/api/public/v1/goods/search',this.queryObj)
        this.isLoading = false
        cb && cb()
        if(res.meta.status !==200) return uni.$showMsg()
@@ -62,5 +62,7 @@
 </script>
 
 <style lang="scss">
- 
+ .goods-list{
+   background-color: #fff;
+ }
 </style>
