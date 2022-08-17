@@ -119,18 +119,20 @@
 }
 .history-box{
   padding: 0px 5px;
+  
   .history-title{
-  display: flex;
+    display: flex;
     justify-content: space-between;
     height: 40px;
     align-items: center;
     font-size: 13px;
     border-bottom: 1px solid #efefef;
   }
+  
   .history-list{
      display: flex;
      flex-wrap: wrap;
-     
+
      .uni-tag{
        margin-top: 5px;
        margin-right: 5px;
